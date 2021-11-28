@@ -1,0 +1,224 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#main {
+
+}
+#header {
+  height: 46px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  background-color: #000;
+}
+#nav {
+  display: inline-block;
+}
+#nav, .subnav {
+  list-style-type: none;
+}
+#nav > li {
+  display: inline-block;
+}
+#nav li {
+  position: relative;
+}
+#nav > li > a {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 15px;
+}
+#nav > li:hover > a,
+#nav .subnav li:hover {
+  color: #000;
+  background-color: #ccc;
+}
+#nav li a {
+  text-decoration: none;
+  line-height: 46px;
+  padding: 0 24px;
+  display: block;
+}
+#nav li:hover .subnav {
+  display: block;
+}
+#nav .subnav a {
+  color: #000;
+  line-height: 38px;
+  padding: 0 16px;
+}
+#nav .subnav {
+  top: 100%;
+  left: 0;
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0 0 12px rgba(0,0,0,0.3);
+  min-width: 160px;
+}
+#nav .ti-arrow-down {
+  font-size: 14px
+}
+#header .search-btn:hover {
+  background-color: #f44336;
+  cursor: pointer;
+}
+#header .search-btn {
+  float: right;
+}
+#header .search-icon {
+  color: #fff;
+  padding: 0 24px;
+  line-height: 46px;
+}
+#slider {
+  position: relative;
+  margin-top: 46px;
+  padding-top: 50%;
+  width: 100%;
+  background: url('/assets/img/silder.jpg') top center / cover no-repeat;
+}
+#slider .text-content {
+  position: absolute;
+  bottom: 47px;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+}
+#slider .text-heading {
+  font-size: 24px;
+  font-weight: 200;
+  margin-bottom: 25px;
+}
+#slider .text-pa {
+  font-size: 15px;
+}
+#content {
+
+}
+#content .content-section {
+  max-width: 800px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 64px 0;
+}
+#content .text-heading {
+  font-size: 30px;
+  font-weight: 200;
+  letter-spacing: 4px;
+  margin: 10px 0;
+}
+#content .text-sub-heading {
+  font-size: 15px;
+  margin: 15px 0;
+  font-style: italic;
+  opacity: 0.5;
+}
+#content .about-text {
+  font-size: 15px;
+  line-height: 1.4;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+#content .member {
+  display: flex;
+  padding: 47px 0;
+}
+#content .member-item {
+  padding: 0 12px;
+}
+#content .member-img {
+  width: 65%;
+  border-radius: 4px;
+}
+#content .member-name {
+  font-size: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+#content .tour-section {
+  background: #000;
+}
+.text-white {
+  color: #fff !important;
+}
+#content .tickets-list {
+  background-color: #fff;
+  color: #757575;
+  max-width: 800px;
+  list-style-type: none;
+  text-align: left;
+  margin-top: 32px;
+}
+#content .tickets-list li {
+  border-bottom: 1px solid #ddd;
+  font-size: 15px;
+  padding: 8px 16px
+}
+#content .sold-out {
+  margin-left: 8px;
+  padding: 3px 4px;
+  color: #fff;
+  background-color: #f44336;
+}
+#content .quantity {
+  float: right;
+  margin-top: -3px;
+  padding: 4px 8px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 50%;
+}
+#content .places-list {
+  margin: 32px 0;
+  display: flex;
+  
+}
+#content .place-item {
+  width: 33.33333%;
+  padding: 0 8px;
+}
+#content .place-img {
+  width: 100%;
+  display: block;
+}
+#content .place-body {
+  color: #000;
+  background-color: #fff;
+  font-size: 15px;
+  padding: 16px;
+  text-align: left;
+}
+#content .place-heading {
+  font-weight: 300;
+  padding-bottom: 15px;
+}
+#content .place-time {
+  padding-bottom: 15px;
+}
+#content .place-de {
+  padding-bottom: 15px;
+}
+#content .place-buy-btn {
+  background-color: #000;
+  color: #fff;
+  font-size: 17px;
+  padding: 7px 8px;
+  border: none;
+}
+/* .modal {
+  position: fixed;
+  background: rgba(0,0,0,0.3);
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+} */
